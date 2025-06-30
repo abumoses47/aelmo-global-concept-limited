@@ -21,6 +21,17 @@ body { font-family: Arial, sans-serif; margin: 0; background: #f9f9f9; color: #3
     .service-item, .usp-item { background: #eaeaea; margin: 10px; padding: 15px; border-radius: 10px; text-align: center; }
     .grid { display: flex; flex-wrap: wrap; justify-content: space-around; }
     .testimonial { background: #f9f9f9; padding: 20px; border-radius: 10px; margin: 10px; text-align: center; }
-    .logo {float:left;
-      margin-right: 20px;
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 10px 20px;
+      flex-wrap: wrap;
     }
+    .logo {
+      max-width: 120px;
+      height: auto;
+      margin-right: 20px;
+      display: block;
+    }
+    
