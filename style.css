@@ -1,0 +1,26 @@
+body { font-family: Arial, sans-serif; margin: 0; background: #f9f9f9; color: #333; }
+    header { background: #003366; color: white; text-align: center; padding: 60px 20px; }
+    header h1 { font-size: 2.5rem; }
+    header p { font-size: 1.2rem; }
+    .btn { background: #FF9900; color: white; padding: 10px 20px; text-decoration: none; display: inline-block; border-radius: 5px; margin-top: 20px; }
+    section { padding: 40px 20px; max-width: 1000px; margin: auto; }
+    .grid { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
+    .card { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); width: 45%; }
+    .card img { width: 100%; border-radius: 8px; margin-bottom: 10px; }
+    form input, form textarea { width: 100%; padding: 10px; margin: 8px 0; border-radius: 5px; border: 1px solid #ccc; }
+    form button { background: #FF9900; border: none; color: white; padding: 10px 20px; border-radius: 5px; cursor: pointer; }
+    footer { background: #003366; color: white; text-align: center; padding: 20px; margin-top: 40px; }
+    .gallery { position: relative; max-width: 800px; margin: 0 auto; }
+    .slides { display: none; width: 100%; border-radius: 10px; }
+    .active { display: block; }
+    .dots { text-align: center; margin-top: 10px; }
+    .dot { height: 15px; width: 15px; margin: 0 5px; background-color: #bbb; border-radius: 50%; display: inline-block; cursor: pointer; }
+    .dot.active { background-color: #FF9900; }
+    .section h2 { color: #003366; text-align: center; margin-bottom: 20px; }
+    .services, .values, .usp, .testimonials, .contact, .footer { max-width: 1000px; margin: auto; }
+    .service-item, .usp-item { background: #eaeaea; margin: 10px; padding: 15px; border-radius: 10px; text-align: center; }
+    .grid { display: flex; flex-wrap: wrap; justify-content: space-around; }
+    .testimonial { background: #f9f9f9; padding: 20px; border-radius: 10px; margin: 10px; text-align: center; }
+    .logo {float:left;
+      margin-right: 20px;
+    }
